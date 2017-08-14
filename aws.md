@@ -4,7 +4,7 @@ A: The amount of compute for an Amazon EC2 instance, including RAM, instance sto
 
 ---
 
-Q: When you launch an Amazon Elastic Compute Cloud (Amazon EC2) instance, what is defined by the Amazon Machine Image (AMI)? 
+Q: When you launch an Amazon Elastic Compute Cloud (Amazon EC2) instance, what is defined by the Amazon Machine Image (AMI)?  
 A: The initial software state of the instance when launched, including operating system, configuration, and additional installed programs.
 
 ---
