@@ -56,3 +56,33 @@ A: Low, moderate, high, and 10 Gbps.
 
 Q12: What is instance metadata?  
 A: Data about an Amazon Elastic Compute Cloud (Amazon EC2) instance—such as instance ID, instance type, and security groups—that can be obtained via an HTTP call from within the instance.   
+
+---
+
+Q13: What are the four properties of a security group rule?  
+A: Traffic direction, port, protocol, and destination (or source) address.  
+
+---
+
+Q14: When an Amazon Elastic Compute Cloud (Amazon EC2) instance is a member of two security groups, what resulting traffic flow is allowed?  
+A: The rules from each security group are aggregated to create one set of permissive rules, so the result is a union of all traffic allowed by the rules in both security groups.   
+
+---
+
+Q15: Which Amazon Elastic Block Storage (Amazon EBS) volume type is the best choice for workloads such as large databases executing many transactions?   
+A: Provisioned IOPS SSD.  
+
+---
+
+Q16: What Amazon Elastic Block Storage (Amazon EBS) volume type is appropriate for cold and infrequently accessed data?   
+A: Magnetic volumes.  
+
+---
+
+Q17: Which Amazon Elastic Block Storage (Amazon EBS) volume type is appropriate for dev/test environments, small databases, and so forth?  
+A:  General-purpose SSD.  
+
+---
+
+Q18: What must an application running on an Amazon Elastic Compute Cloud (Amazon EC2) instance do differently to access data on an encrypted Amazon Elastic Block Storage (Amazon EBS) volume?  
+A:  Nothing. Amazon EBS encryption is transparent to applications on the attached instances.    
